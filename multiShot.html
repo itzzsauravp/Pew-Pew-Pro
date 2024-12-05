@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="main_container">
+      <div class="score_container">
+        <p class="score_title">Hits:</p>
+        <span class="hit_count"></span>
+        <p class="score_title">Miss:</p>
+        <span class="miss_count"></span>
+      </div>
+      <canvas id="game_canvas">
+        <!-- this will be ignored just for screen readers and spiders -->
+      </canvas>
+      <div class="btn_collection">
+        <button id="game_start_btn">Start Game</button>
+        <button id="game_end_btn">End Game</button>
+      </div>
+      <a href="/" class="home_btn">Go Back</a>
+    </div>
+    <script src="main.js"></script>
+  </body>
+</html>
